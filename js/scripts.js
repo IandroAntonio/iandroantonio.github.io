@@ -30,5 +30,9 @@
     $('#galleryModal').on('show.bs.modal', function (e) {
        $('#galleryImage').attr("src",$(e.relatedTarget).data("src"));
     });
+	
+	 $('#videoModal').on('show.bs.modal', function (e) {
+       $('#VideoFrame').attr("src",$(e.relatedTarget).data("src"));
+    });
 
 })(jQuery);
