@@ -15,7 +15,7 @@ body {
 }
 
 body {
-    font-family: "underwood";
+    font-family: "Caviar Dreams";
     background-color: #282828;
     color: #d3d3d3;
     webkit-tap-highlight-color: #222;
@@ -484,7 +484,7 @@ fieldset[disabled] .btn-default.active {
 .btn {
     border: 0;
     border-radius: 290px;
-    font-family: 'Helvetica Neue',Arial,sans-serif;
+    font-family:"Caviar Dreams" ,'Helvetica Neue',Arial,sans-serif;
 }
 
 .btn-xl {
@@ -515,13 +515,8 @@ img::-moz-selection {
 }
 	  
 @font-face {
-      font-family: "witch-black";
-      src: url("../fonts/witch-black.ttf");
-      }
-	  
-@font-face {
-      font-family: "witch";
-      src: url("../fonts/witch.ttf");
+      font-family: "Caviar Dreams";
+      src: url("../fonts/CaviarDreams.ttf");
       }
 	  
 @font-face {
@@ -531,16 +526,11 @@ img::-moz-selection {
 	  
 	  
 .fonte1{
-	font-family:"witch";
+	font-family:"underwood";
 }
 
 .fonte2{
-	font-family:"underwood";
-	font-weight:bold;
-}
-
-.fonte3{
-	font-family:"underwood";
+	font-family:"Caviar Dreams";
 }
 
 
