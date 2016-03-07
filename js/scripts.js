@@ -34,5 +34,9 @@
 	 $('#videoModal').on('show.bs.modal', function (e) {
        $('#VideoFrame').attr("src",$(e.relatedTarget).data("src"));
     });
+	
+	 $('#videoModal').on('hidden.bs.modal', function (e) {
+       $('#VideoFrame').attr("src","");
+    });
 
 })(jQuery);

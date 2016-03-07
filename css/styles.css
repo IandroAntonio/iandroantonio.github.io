@@ -79,6 +79,10 @@ p {
     color: #111;
 }
 
+.text-branco {
+    color: #FFFFFF;
+}
+
 .text-primary {
     color: #8B0000;
 	font-family:"uderwood";
