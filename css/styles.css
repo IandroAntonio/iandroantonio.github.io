@@ -16,9 +16,10 @@ body {
 
 body {
     font-family: "Caviar Dreams";
-    background-color: #282828;
+      background-image: url('https://katielmac.files.wordpress.com/2011/05/website-background-test.jpg');
     color: #d3d3d3;
     webkit-tap-highlight-color: #222;
+	text-color:#FFFFFF;
 }
 
 hr {
