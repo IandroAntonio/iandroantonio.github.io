@@ -31,7 +31,7 @@ hr {
 }
 
 hr.light {
-    border-color: #8B0000;
+    border-color: #113C8B;
 }
 
 a {
@@ -85,7 +85,7 @@ p {
 }
 
 .text-primary {
-    color: #8B0000;
+    color: #113C8B;
 	font-family:"uderwood";
 	font-size:50px;
 }
@@ -121,7 +121,7 @@ footer {
 
 .navbar-header > .navbar-brand {
     font-family:"underwood", 'Questrial','Helvetica Neue',Arial,sans-serif;
-    color: #8B0000;
+    color: #113C8B;
     padding: 15px;
     -webkit-transition: padding .2s ease-in;
     -moz-transition: padding .2s ease-in;
@@ -130,7 +130,7 @@ footer {
 
 .navbar-header > .navbar-brand:hover,
 .navbar-header > .navbar-brand:focus {
-    color: #800000;
+    color: #113C8B;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -150,12 +150,12 @@ footer {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #800000;
+    color: #113C8B;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #800000 !important;
+    color: 113C8B !important;
     background-color: transparent;
 }
 
@@ -203,14 +203,14 @@ footer {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 15px;
-        color: #8B0000;
+        color: #113C8B;
         padding: 20px;
         letter-spacing: 1px;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #800000;
+        color: 113C8B;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -221,7 +221,7 @@ footer {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #8B0000;
+        color: #113C8B;
     }
 }
 
@@ -556,11 +556,17 @@ img::-moz-selection {
 	}
 	
 .light-box {
-    background-color: #8B0000;
+    background-color: #113C8B;
     -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4;
     -moz-box-shadow: 0px 3px 0px 0px #f0f2f4;
     box-shadow: 0px 3px 0px 0px #f0f2f4;
     padding: 20px 0;
+}
+
+.btn-galeria{
+	background-color:#113C8B;
+	height:100px;
+	
 }
 
 .effects { padding-left: 15px; }
