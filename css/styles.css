@@ -502,6 +502,16 @@ fieldset[disabled] .btn-default.active {
     font-size: 20px;
 }
 
+#btn-galeria{
+	position:relative;
+	bottom:0;
+	border: 1px solid white;
+	background-color: #113C8B;
+	height:60px;
+	width:150px;
+	
+}
+
 ::-moz-selection {
     text-shadow: none;
     color: #fff;
@@ -561,12 +571,6 @@ img::-moz-selection {
     -moz-box-shadow: 0px 3px 0px 0px #f0f2f4;
     box-shadow: 0px 3px 0px 0px #f0f2f4;
     padding: 20px 0;
-}
-
-.btn-galeria{
-	background-color:#113C8B;
-	height:100px;
-	
 }
 
 .effects { padding-left: 15px; }
