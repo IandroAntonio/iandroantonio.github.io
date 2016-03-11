@@ -17,6 +17,10 @@ body {
 body {
     font-family: "Caviar Dreams";
       background-image: url('../img/fundo site.png');
+	  background-position: top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
     color: #d3d3d3;
     webkit-tap-highlight-color: #222;
 	text-color:#FFFFFF;
@@ -233,7 +237,7 @@ header {
     width: 100%;
     background-color: #c9c9c9;
     background-image: url('../img/fundo site.png');
-    background-position: center;
+    background-position: top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -275,6 +279,14 @@ header .header-content .inner p {
 
 #video-background.collapsing {
   display:none;
+}
+
+#two{
+	background-image:url(img/stars.jpg);
+	background-position: top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
 }
 
 footer {
